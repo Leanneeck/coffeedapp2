@@ -139,3 +139,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(MAIN_DIR, 'coffeedapp2','static'),
     )
+
+STATIC_ROOT = os.path.join(Main_DIR, 'coffeedapp2', 'static')
