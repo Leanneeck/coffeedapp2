@@ -140,5 +140,5 @@ STATICFILES_DIRS = (
     os.path.join(MAIN_DIR, 'coffeedapp2','static'),
     )
 
-PROJECT_ROOT = os.path.dirname(os.path.abspath(MAIN_DIR, 'coffeedapp2', 'static'))
-STATIC_ROOT = os.path.join(PROJECT_DIR, 'coffeedapp2', 'static')
+
+STATIC_ROOT = '/static/collectstatic'
