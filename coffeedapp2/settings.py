@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'core',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'coffeedapp2.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(MAIN_DIR, 'coffeedapp2', 'templates')],
+        'DIRS': [os.path.join(MAIN_DIR, 'coffeedapp2/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
