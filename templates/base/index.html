@@ -1,4 +1,5 @@
 {% load staticfiles %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +14,7 @@
     <title>C O F F E E D</title>
 
     <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/home.css">
     <link href="{% static "vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
 
     <!-- Custom Fonts -->
